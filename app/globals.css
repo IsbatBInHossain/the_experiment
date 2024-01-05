@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'blade-runner';
+  src: url('/fonts/BLADRMF.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cyberpunk';
+  src: url('/fonts/Cybrpnuk2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -13,6 +13,14 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        cyberpunk: ['cyberpunk', 'sans-serif'],
+        'blade-runner': ['blade-runner', 'sans-serif'],
+      },
+      colors: {
+        background: '#2C281F',
+        'punk-yellow': '#ECE64D',
+      },
     },
   },
   plugins: [],

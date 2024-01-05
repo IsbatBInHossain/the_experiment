@@ -13,7 +13,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body>{children}</body>
+      <body className=' bg-background p-20 h-screen'>
+        <main className='border border-punk-yellow p-16 h-full'>
+          {children}
+        </main>
+      </body>
     </html>
   )
 }
