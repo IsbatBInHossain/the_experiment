@@ -1,3 +1,4 @@
+import Navbar from './_components/Navbar'
 import './globals.css'
 import type { Metadata } from 'next'
 
@@ -13,8 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className=' bg-background p-20 h-screen'>
-        <main className='border border-punk-yellow p-16 h-full'>
+      <body className=' bg-void-landscape bg-no-repeat bg-cover p-16 h-screen flex flex-col'>
+        <Navbar />
+        <main className='border shadow-neon-orange text-neon-slate text-[#191919] border-punk-yellow h-full'>
           {children}
         </main>
       </body>
