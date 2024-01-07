@@ -11,10 +11,15 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'void-landscape': "url('/assets/images/japanese cyberpunk.jpg')",
+        'bean-scene': "url('/assets/Bean Scene/hero.png')",
       },
       fontFamily: {
         cyberpunk: ['cyberpunk', 'sans-serif'],
         'blade-runner': ['blade-runner', 'sans-serif'],
+        playfair: ['Playfair Display', 'serif'],
+        'playfair-400': ['Playfair Display', 'serif', '400'],
+        'playfair-500': ['Playfair Display', 'serif', '500'],
+        'playfair-700': ['Playfair Display', 'serif', '700'],
       },
       colors: {
         background: '#2C281F',
