@@ -22,8 +22,11 @@ const config: Config = {
         'playfair-700': ['Playfair Display', 'serif', '700'],
       },
       colors: {
-        background: '#2C281F',
         'punk-yellow': '#ECE64D',
+        bean: {
+          coffe: '#603809',
+          ash: '#707070',
+        },
       },
     },
   },
