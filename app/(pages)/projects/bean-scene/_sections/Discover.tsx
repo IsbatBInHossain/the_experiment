@@ -26,9 +26,9 @@ const Discover = () => {
       <Image
         src='/assets/Bean Scene/coffee_blast.png'
         alt='coffe blast'
-        width={498}
+        width={377}
         height={272}
-        className=' absolute  -left-20 -bottom-60 -z-10'
+        className=' absolute  -left-20 -bottom-64 -z-10'
       />
     </div>
   )

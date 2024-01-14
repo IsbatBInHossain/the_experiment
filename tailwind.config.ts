@@ -1,6 +1,18 @@
 import type { Config } from 'tailwindcss'
 import plugin from 'tailwindcss/plugin'
 
+interface ShadowUtilities {
+  [key: string]: {
+    boxShadow: string
+  }
+}
+
+interface TextUtilities {
+  [key: string]: {
+    textShadow: string
+  }
+}
+
 const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -11,7 +23,6 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'void-landscape': "url('/assets/images/japanese cyberpunk.jpg')",
-        'bean-scene': "url('/assets/Bean Scene/hero.png')",
       },
       fontFamily: {
         cyberpunk: ['cyberpunk', 'sans-serif'],
@@ -32,8 +43,8 @@ const config: Config = {
   },
   plugins: [
     plugin(({ theme, addUtilities }) => {
-      const shadowUtilities = {}
-      const textUtilities = {}
+      const shadowUtilities: ShadowUtilities = {}
+      const textUtilities: TextUtilities = {}
       const colors = theme('colors')
 
       for (let color in colors) {
@@ -46,9 +57,10 @@ const config: Config = {
           textUtilities[`.text-neon-${color}`] = {
             textShadow: `0 0 5px ${col1}, 0 0 20px ${col2}`,
           }
-          addUtilities([shadowUtilities, textUtilities])
         }
       }
+
+      addUtilities([shadowUtilities, textUtilities])
     }),
   ],
 }
