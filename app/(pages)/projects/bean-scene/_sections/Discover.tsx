@@ -3,7 +3,7 @@ import Button from '../_components/Button'
 
 const Discover = () => {
   return (
-    <div className=' flex justify-between items-center  my-20 gap-16 relative px-24'>
+    <section className=' flex justify-between items-center  my-20 gap-16 relative px-24'>
       <div className=' flex flex-col gap-[30px]'>
         <h3 className=' text-bean-coffe text-[54px] font-bold'>
           Discover the best coffee
@@ -15,7 +15,7 @@ const Discover = () => {
           is no doubt that you will enjoy this coffee more than others you have
           ever tasted.
         </p>
-        <Button btnName='Learn More' btnClass=' font-bold' />
+        <Button btnName='Learn More' btnClass='font-bold' />
       </div>
       <Image
         src='/assets/Bean Scene/stylized-cup-coffee.png'
@@ -28,9 +28,9 @@ const Discover = () => {
         alt='coffe blast'
         width={377}
         height={272}
-        className=' absolute  -left-20 -bottom-64 -z-10'
+        className=' absolute  -left-20 -bottom-64 -z-10 '
       />
-    </div>
+    </section>
   )
 }
 

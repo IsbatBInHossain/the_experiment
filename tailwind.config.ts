@@ -37,6 +37,9 @@ const config: Config = {
         bean: {
           coffe: '#603809',
           ash: '#707070',
+          buttercream: '#f9c06a',
+          butter: '#d7a531',
+          rosetint: '#ffeed8',
         },
       },
     },

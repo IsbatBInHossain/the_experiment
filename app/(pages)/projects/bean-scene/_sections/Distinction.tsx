@@ -4,7 +4,7 @@ import { distinctions } from '../data'
 
 const Distinction = () => {
   return (
-    <div className=' py-20 flex flex-col items-center relative px-24'>
+    <section className=' py-20 flex flex-col items-center relative px-24'>
       <h3 className='text-bean-coffe text-[54px] font-bold'>
         Why are we diffrent?
       </h3>
@@ -23,7 +23,7 @@ const Distinction = () => {
         Get started today.
       </h4>
       <Button btnName='Join us' btnClass=' font-bold mt-6' />
-    </div>
+    </section>
   )
 }
 

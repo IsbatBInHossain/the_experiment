@@ -3,8 +3,8 @@ import Button from '../_components/Button'
 
 const Banner = () => {
   return (
-    <div
-      className='bg-no-repeat bg-cover flex justify-between relative items-center -z-20 py-14'
+    <section
+      className='bg-no-repeat bg-cover flex justify-between relative items-center -z-20 py-14 mb-20'
       style={{
         backgroundImage: 'url("/assets/Bean Scene/banner background.png")',
       }}
@@ -34,7 +34,7 @@ const Banner = () => {
         alt='Coffe bean'
         className=' absolute bottom-0 right-0 -z-10'
       />
-    </div>
+    </section>
   )
 }
 

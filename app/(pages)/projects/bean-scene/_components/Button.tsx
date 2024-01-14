@@ -6,7 +6,7 @@ const Button: React.FC<{ btnName: string; btnClass?: string }> = ({
     <button
       className={`${
         btnClass || ''
-      } bg-[#f9c06a] hover:bg-[#c59854] hover:shadow-[#c59854] hover:shadow-lg px-6 py-3 rounded-full text-black shadow-md shadow-[#f9c06a] w-fit`}
+      } bg-bean-buttercream hover:bg-bean-butter hover:shadow-bean-butter hover:shadow-lg px-6 py-3 rounded-full text-black shadow-md shadow-bean-buttercream w-fit`}
     >
       {btnName}
     </button>
