@@ -10,7 +10,7 @@ const HeroCard = () => {
         flavours coffee you will ever have. We provide the best for our
         customers.
       </p>
-      <Button btnName='Order Now' btnClass=' mt-6 ' />
+      <Button btnName='Order Now' btnClass=' mt-6 font-bold' />
     </div>
   )
 }

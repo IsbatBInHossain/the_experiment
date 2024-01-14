@@ -3,7 +3,7 @@ import Button from '../_components/Button'
 
 const Discover = () => {
   return (
-    <div className=' flex justify-between items-center px-24 mt-20 gap-16'>
+    <div className=' flex justify-between items-center  my-20 gap-16 relative'>
       <div className=' flex flex-col gap-[30px]'>
         <h3 className=' text-bean-coffe text-[54px] font-bold'>
           Discover the best coffee
@@ -28,7 +28,7 @@ const Discover = () => {
         alt='coffe blast'
         width={498}
         height={272}
-        className=' absolute'
+        className=' absolute  -left-20 -bottom-60 -z-10'
       />
     </div>
   )
