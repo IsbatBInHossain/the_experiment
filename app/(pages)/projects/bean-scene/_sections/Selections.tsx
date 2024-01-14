@@ -4,7 +4,7 @@ import { coffes } from '../data'
 
 const Selections = () => {
   return (
-    <div className=' mt-60 pb-20 flex flex-col items-center relative'>
+    <div className=' mt-60 pb-20 flex flex-col items-center relative px-24'>
       <h3 className='text-bean-coffe text-[54px] font-bold'>
         Enjoy a new bland of Coffe Style
       </h3>

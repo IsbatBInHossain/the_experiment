@@ -3,7 +3,7 @@ import Button from '../_components/Button'
 
 const Discover = () => {
   return (
-    <div className=' flex justify-between items-center  my-20 gap-16 relative'>
+    <div className=' flex justify-between items-center  my-20 gap-16 relative px-24'>
       <div className=' flex flex-col gap-[30px]'>
         <h3 className=' text-bean-coffe text-[54px] font-bold'>
           Discover the best coffee

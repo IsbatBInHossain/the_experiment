@@ -4,7 +4,7 @@ import { distinctions } from '../data'
 
 const Distinction = () => {
   return (
-    <div className=' py-20 flex flex-col items-center relative'>
+    <div className=' py-20 flex flex-col items-center relative px-24'>
       <h3 className='text-bean-coffe text-[54px] font-bold'>
         Why are we diffrent?
       </h3>
@@ -13,11 +13,7 @@ const Distinction = () => {
       </p>
       <div className=' flex justify-between w-full my-8'>
         {distinctions.map((distinction, idx) => (
-          <DistinctionCard
-            distinction={distinction}
-            key={distinction.title}
-            className={idx % 2 === 0 ? 'bg-[#ffeed8]' : ''}
-          />
+          <DistinctionCard distinction={distinction} key={distinction.title} />
         ))}
       </div>
       <p className='text-xl leading-[34px] text-bean-ash'>

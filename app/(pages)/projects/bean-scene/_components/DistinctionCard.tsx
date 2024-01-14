@@ -15,7 +15,7 @@ const DistinctionCard = ({
 }) => {
   return (
     <div
-      className={`${className} flex flex-col items-center w-fit p-9 text-center`}
+      className={`${className} flex flex-col items-center w-fit p-9 text-center hover:bg-[#ffeed8] cursor-pointer`}
     >
       <Image
         src={distinction.icon}

@@ -1,5 +1,6 @@
 import HeroCard from './_components/HeroCard'
 import Navbar from './_components/Navbar'
+import Banner from './_sections/Banner'
 import Discover from './_sections/Discover'
 import Distinction from './_sections/Distinction'
 import Selections from './_sections/Selections'
@@ -17,10 +18,11 @@ const Page = () => {
         <HeroCard />
       </header>
 
-      <main className='px-24'>
+      <main className='mx-auto'>
         <Discover />
         <Selections />
         <Distinction />
+        <Banner />
       </main>
     </div>
   )
