@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Button from '../_components/Button'
+import { SubtitleText, TitleText } from '../_components/TitleText'
 
 const Banner = () => {
   return (
@@ -11,13 +12,11 @@ const Banner = () => {
     >
       <div className='absolute inset-0 bg-bean-coffe bg-opacity-70 -z-10'></div>
       <div className=' px-[93px] text-white w-[800px] text-left'>
-        <h3 className=' text-white font-bold text-[54px]'>
-          Get a chance to have an Amazing morning
-        </h3>
-        <p className=' text-xl py-[22px]'>
-          We are giving you are one time opportunity to experience a better life
-          with coffee.
-        </p>
+        <TitleText title='Get a chance to have an Amazing morning' />
+        <SubtitleText
+          subtitle='We are giving you are one time opportunity to experience a better life
+          with coffee.'
+        />
         <Button btnName='Order Now' btnClass=' font-bold' />
       </div>
       <Image

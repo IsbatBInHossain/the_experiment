@@ -5,7 +5,7 @@ interface Coffee {
   name: string
   coffePercent: number
   milkPercent: number
-  price: number
+  price: string
   image: string
 }
 
@@ -19,7 +19,7 @@ const CoffeCard = ({ coffe }: { coffe: Coffee }) => {
       <p>
         Coffe {coffe.coffePercent}% | Milk {coffe.milkPercent}%
       </p>
-      <p className=' text-bean-coffe text-lg'>${coffe.price}</p>
+      <p className=' text-bean-coffe text-lg font-bold'>${coffe.price}</p>
       <Button btnName='Order Now' btnClass='font-bold mt-[18px]' />
     </div>
   )

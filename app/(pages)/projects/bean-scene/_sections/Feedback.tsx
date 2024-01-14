@@ -1,16 +1,16 @@
 import Image from 'next/image'
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa'
+import { SubtitleText, TitleText } from '../_components/TitleText'
 
 const Feedback = () => {
   return (
     <section className=' flex flex-col items-center text-center relative'>
       <div className=' flex flex-col gap-4'>
-        <h3 className=' text-bean-coffe font-bold text-[54px] '>
-          Our coffee perfection feedback
-        </h3>
-        <p className=' text-bean-ash text-xl leading-[34px]'>
-          Our customers has amazing things to say about us
-        </p>
+        <TitleText title='Our coffee perfection feedback' isCoffee />
+        <SubtitleText
+          subtitle='Our customers has amazing things to say about us'
+          isAsh
+        />
       </div>
       <Image
         src='/assets/Bean Scene/coffee_blast.png'
